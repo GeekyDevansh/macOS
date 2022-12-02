@@ -147,14 +147,17 @@ export default function Home() {
             magnification={1}
             magnifyDirection="up"
           >
-            {["portfolio", "raktbank", "moda", "memories", "videochat"].map(
+            {["moda", "raktbank", "portfolio", "memories", "videochat"].map(
               (item, index) => (
                 <Dock.Item
                   className="px-2 "
                   key={index}
                   onClick={() => {setP(item); setShow(true)}}
                 >
+                  <div  className="bg-white rounded-lg flex justify-center bg-opacity-60 p-2 h-10 w-10"  >
+
                   <img src={`${item}.png`} />
+                  </div>
                 </Dock.Item>
               )
             )}
