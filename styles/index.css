@@ -5,6 +5,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html{
+    cursor:url('/cursor.svg'),auto;
+
+  }
+
 @layer base {
     html {
         font-family: 'DM Sans', sans-serif;
