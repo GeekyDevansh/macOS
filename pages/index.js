@@ -70,7 +70,7 @@ export default function Home() {
             bottom: 100,
           }} initial={{ opacity: 0 }}
           animate={{ opacity: 1,duration:1 }}
-          exit={{ opacity: 0 }} className={`${large?"w-screen":"w-1/3"} bg-white border-1 rounded-xl`}>
+          exit={{ opacity: 0 }} className={`${large?"w-screen":"w-1/3"} bg-white border-1 rounded-xl `}>
             <div className="bg-white border-b-2 rounded-t-xl border-gray-300 flex " >
               <div className="rounded-full bg-red-500 bg-opacity-90 h-3 w-3 mt-2 mb-1 ml-2" onClick={()=> {setShow(false)}} >
 
@@ -117,7 +117,7 @@ export default function Home() {
 
         <div className=" hidden md:block">
           <Dock
-            className="z-0 absolute bottom-1 md:left-1/4 ml-24"
+            className="z-0 absolute bottom-[1%] md:left-1/4 ml-24"
             backgroundClassName="bg-slate-300 bg-opacity-20 border-1 rounded-3xl"
             width={400}
             magnification={0.5}
@@ -141,7 +141,7 @@ export default function Home() {
         </div>
         <div className=" block md:hidden ">
           <Dock
-            className="z-0 absolute bottom-16 "
+            className="z-0 absolute bottom-[1%] "
             backgroundClassName="bg-slate-300 bg-opacity-20 border-1 rounded-lg"
             width={250}
             magnification={1}
