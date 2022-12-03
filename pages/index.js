@@ -86,7 +86,7 @@ export default function Home() {
               src="https://www.devanshkhullar.xyz/"
               className={`${
                 p === "portfolio" ? "block" : "hidden"
-              } w-full rounded-b-xl h-[80vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}  `}
+              } w-full rounded-b-xl h-[75vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}  `}
             />
             <iframe
               src="https://raktbank.xyz/"
@@ -141,7 +141,7 @@ export default function Home() {
         </div>
         <div className=" block md:hidden ">
           <Dock
-            className="z-0 absolute bottom-[1%] "
+            className="z-0 absolute bottom-[8%] "
             backgroundClassName="bg-slate-300 bg-opacity-20 border-1 rounded-lg"
             width={250}
             magnification={1}
