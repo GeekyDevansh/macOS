@@ -86,31 +86,31 @@ export default function Home() {
               src="https://www.devanshkhullar.xyz/"
               className={`${
                 p === "portfolio" ? "block" : "hidden"
-              } w-full rounded-b-xl h-[75vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}  `}
+              } w-full rounded-b-xl h-[80vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}  `}
             />
             <iframe
               src="https://raktbank.xyz/"
               className={`${
                 p === "raktbank" ? "block" : "hidden"
-              } w-full rounded-b-xl h-[75vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}`}
+              } w-full rounded-b-xl h-[80vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}`}
             />
             <iframe
               src="https://moda-online-shopping.vercel.app/"
               className={`${
                 p === "moda" ? "block" : "hidden"
-              }  w-full rounded-b-xl h-[75vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}`}
+              }  w-full rounded-b-xl h-[80vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}`}
             />
             <iframe
               src="https://video-chat-app-14.netlify.app/"
               className={`${
                 p === "videochat" ? "block" : "hidden"
-              }  w-full rounded-b-xl h-[75vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}`}
+              }  w-full rounded-b-xl h-[80vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}`}
             />
             <iframe
               src="https://my-memories-app123.netlify.app/"
               className={`${
                 p === "memories" ? "block" : "hidden"
-              }  w-full rounded-b-xl h-[75vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}`}
+              }  w-full rounded-b-xl h-[80vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}`}
             />
           </motion.div>
         )}
