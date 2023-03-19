@@ -83,16 +83,10 @@ export default function Home() {
               </div>
               </div>
             <iframe
-              src="https://www.devanshkhullar.xyz/"
+              src="https://devansh-khullar.vercel.app/"
               className={`${
                 p === "portfolio" ? "block" : "hidden"
               } w-full rounded-b-xl h-[80vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}  `}
-            />
-            <iframe
-              src="https://raktbank.xyz/"
-              className={`${
-                p === "raktbank" ? "block" : "hidden"
-              } w-full rounded-b-xl h-[80vh] ${large?"md:h-[83vh]":"md:h-[75vh]"}`}
             />
             <iframe
               src="https://moda-online-shopping.vercel.app/"
@@ -123,7 +117,7 @@ export default function Home() {
             magnification={0.5}
             magnifyDirection="up"
           >
-            {["moda", "raktbank", "portfolio", "memories", "videochat"].map(
+            {["moda", "portfolio", "memories", "videochat"].map(
               (item, index) => (
                 <Dock.Item
                   className=" px-2"
@@ -147,7 +141,7 @@ export default function Home() {
             magnification={1}
             magnifyDirection="up"
           >
-            {["moda", "raktbank", "portfolio", "memories", "videochat"].map(
+            {["moda", "portfolio", "memories", "videochat"].map(
               (item, index) => (
                 <Dock.Item
                   className="px-2 "
